@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import openai
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 app = Flask(__name__)
 app.static_folder = 'static'
